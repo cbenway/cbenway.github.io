@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Inferring Causal Gene Regulatory Networks from Coupled Single-Cell Expression Dynamics Using Scribe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Customized Bootstrap + Font Awesome + Solarized -->
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>	
+			
+	<!-- Google Analytics -->	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-58618307-1', 'cole-trapnell-lab.github.io');
+		ga('send', 'pageview');
+
+	</script>
+			
+</head>
+
+<body>
+	
+	<div id="header">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
+			<div class="container">	
+				
+				<div class="navbar-header">
+					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
+					<a class="navbar-brand" href="/">Trapnell Lab</a>
+				</div>
+				
+				<ul class="nav navbar-nav navbar-right">
+                    <!-- 
+                    <li>
+                    
+                    <a href="/blog/">blog</a>
+                    </li> -->
+					
+					<li class="active">
+					
+					<a href="/papers/">Papers</a></li>
+					
+					<li>
+					
+					<a href="/projects/">Projects</a></li>	  
+					
+					<li>
+					
+					<a href="/team/">People</a></li>	  	  
+				</ul>
+			</div>
+		</nav>	
+	</div>
+	
+	<div class="container">	
+		
+	<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object" src="/images/papers/qiu-scribe.png" style="max-width:150px">
+			
+			<div class="media-body">
+				<div class="title media-heading">
+					Inferring Causal Gene Regulatory Networks from Coupled Single-Cell Expression Dynamics Using Scribe
+				</div>
+				<p>
+				<div class="smallhead">
+					Xiaojie Qiu, Arman Rahimzamani, Li Wang, Bingcheng Ren, Qi Mao, Timothy Durham, José L. McFaline-Figueroa, Lauren M. Saunders, Cole Trapnell**, Sreeram Kannan**
+					<br>
+
+          </div>
+					<div class="bigspacer"></div>
+                <div class="smallhead">
+					Cell Systems
+					(2020)
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note">
+			
+			<div class="smallhead">
+				PDF
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/pdfs/papers/Qiu_etal_Scribe_CellSys_2020.pdf">Qiu_etal_Scribe_CellSys_2020.pdf</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			
+			
+			<div class="smallhead">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1016/j.cels.2020.02.003">10.1016/j.cels.2020.02.003</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			<div class="smallhead">
+				Share
+			</div>
+<!-- 			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/qiu-scribe/&text=Inferring%20Causal%20Gene%20Regulatory%20Networks%20from%20Coupled%20Single-Cell%20Expression%20Dynamics%20Using%20Scribe" target="_blank">tweet</a>
+				
+			</div>		 -->
+			</div>
+	</div>
+	<div class="col-md-8">
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
+
+<p>Here, we present Scribe (https://github.com/aristoteleo/Scribe-py), a toolkit for detecting and
+visualizing causal regulatory interactions between genes and explore the potential for single-cell experiments to power network reconstruction. Scribe employs restricted directed information to determine causality by estimating the strength of information transferred from a potential regulator to its downstream target. We apply Scribe and other leading approaches for causal network reconstruction to several types of single-cell measurements and show that there is a dramatic drop in performance for “pseudotime”-ordered single-cell data compared with true time-series data. We demonstrate that performing causal inference requires temporal coupling between measurements. We show that methods such as “RNA velocity” restore some degree of coupling through an analysis of chromaffin cell fate commitment. These analyses highlight a shortcoming in experimental and computational methods for analyzing gene regulation at single-cell resolution and suggest ways of overcoming it.</p>
+
+<p>** corresponding authors</p>
+
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+	
+	</div>
+		
+	<div id="footer"><span style="display:none">foo</span></div>
+	    		
+	<!-- MathJax support -->
+	<script type="text/javascript"
+	 src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- MathJax config -->
+	<script src="/js/mathjax.config.js"></script>	
+			
+</body>
+</html>
+
