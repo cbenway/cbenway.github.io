@@ -1,4 +1,4 @@
-# trapnell lab research
+# Christopher Benway research
 
 ## Build site
 
