@@ -21,8 +21,8 @@ The `layout`, `title` and `author` tags are required, while `link` and `image` a
 
 ## For more information
 
-* Look over the [metadata format guide](http://trapnell.io/guide/format/)
-* Look over the [Markdown style guide](http://trapnell.io/guide/style/)
+* Look over the [metadata format guide](http://cbenway.github.io/guide/format/)
+* Look over the [Markdown style guide](http://cbenway.github.io/guide/style/)
 
 ## License
 
@@ -30,7 +30,7 @@ All source code in this repository, consisting of files with extensions `.html`,
 
 **The MIT License (MIT)**
 
-Copyright (c) 2013 Trevor Bedford
+Copyright (c) 2021 Christopher Benway
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
