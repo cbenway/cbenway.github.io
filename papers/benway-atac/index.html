@@ -19,7 +19,7 @@
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-58618307-1', 'cole-trapnell-lab.github.io');
+		ga('create', '269018817', 'cbenway.github.io');
 		ga('send', 'pageview');
 
 	</script>
@@ -33,8 +33,8 @@
 			<div class="container">	
 				
 				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">Trapnell Lab</a>
+					<object class="pull-left logo" data="/images/logo-cb-seq.svg"></object>
+					<a class="navbar-brand" href="/">Christopher J. Benway, Ph.D.</a>
 				</div>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -54,7 +54,7 @@
 					
 					<li>
 					
-					<a href="/team/">People</a></li>	  	  
+					<a href="/team/">Protocols</a></li>	  	  
 				</ul>
 			</div>
 		</nav>	
@@ -68,22 +68,22 @@
 	<div class="col-md-12">
 		<div class="media">
 			
-			<img class="pull-left pad-right media-object" src="/images/papers/cao_fetal-rna_fig1.jpg" style="max-width:150px">
+			<img class="pull-left pad-right media-object" src="/images/papers/benway-atac-fig1.jpg" style="max-width:150px">
 			
 			<div class="media-body">
 				<div class="title media-heading">
-					A human cell atlas of fetal gene expression
+					Chromatin Landscapes of Human Lung Cells Predict Potentially Functional COPD GWAS Variants
 				</div>
 				<p>
 				<div class="smallhead">
-					Junyue Cao, Diana R. O’Day, Hannah A. Pliner, Paul D. Kingsley, Mei Deng, Riza M. Daza, Michael A. Zager, Kimberly A. Aldinger, Ronnie Blecher-Gonen, Fan Zhang, Malte Spielmann, James Palis, Dan Doherty, Frank J. Steemers, Ian A. Glass, Cole Trapnell*, Jay Shendure*
+					Benway CJ, Liu J, Guo F, Du F, Randell SH, Cho MH, Silverman EK, Zhou X*; International COPD Genetics Consortium.
 					<br>
 
           </div>
 					<div class="bigspacer"></div>
                 <div class="smallhead">
-					Science
-					(2020)
+					Am J Respir Cell Mol Biol.
+					(2021)
 				</div>
 			</div>
 		</div>
@@ -103,7 +103,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/pdfs/papers/Cao_fetal-rna_Science_2020.pdf">Cao_fetal-rna_Science_2020.pdf</a>
+				<a class="off" href="/pdfs/papers/Benway-atac-lung_AJRCMB_2021.pdf">Benway-atac-lung_AJRCMB_2021.pdf</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -116,7 +116,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/10.1126/science.aba7721">10.1126/science.aba7721</a>
+				<a class="off" href="https://doi.org/10.1165/rcmb.2020-0475oc">10.1165/rcmb.2020-0475OC</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -126,7 +126,7 @@
 			</div>
 <!-- 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/Cao-fetal-rna/&text=A%20human%20cell%20atlas%20of%20fetal%20gene%20expression" target="_blank">tweet</a>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cbenway.github.io/edit/master/papers/benway-atac/&text=Chromatin%20Landscapes%20of%20Human%20Lung%20Cells%20Predict%20Potentially%20Functional%20COPD%20GWAS%20Variants" target="_blank">tweet</a>
 				
 			</div>		 -->
 			</div>
@@ -135,9 +135,9 @@
 		<div class="post">
 			<h1 id="abstract">Abstract</h1>
 
-<p>The gene expression program underlying the specification of human cell types is of fundamental interest. We generated human cell atlases of gene expression and chromatin accessibility in fetal tissues. For gene expression, we applied three-level combinatorial indexing to &gt;110 samples representing 15 organs, ultimately profiling ~4 million single cells. We leveraged the literature and other atlases to identify and annotate hundreds of cell types and subtypes, both within and across tissues. Our analyses focused on organ-specific specializations of broadly distributed cell types (such as blood, endothelial, and epithelial), sites of fetal erythropoiesis (which notably included the adrenal gland), and integration with mouse developmental atlases (such as conserved specification of blood cells). These data represent a rich resource for the exploration of in vivo human gene expression in diverse tissues and cell types.</p>
+<p>Genome-wide association studies (GWASs) have identified dozens of loci associated with risk of chronic obstructive pulmonary disease (COPD). However, identifying the causal variants and their functional role in the appropriate cell type remains a major challenge. We aimed to identify putative causal variants in 82 GWAS loci associated with COPD susceptibility and predict the regulatory impact of these variants in lung cell types. We used an integrated approach featuring statistical fine-mapping, open chromatin profiling, and machine learning to identify functional variants. We generated chromatin accessibility data using the assay for transposase-accessible chromatin with high-throughput sequencing (ATAC-seq) for human primary lung cell types implicated in COPD pathobiology. We then evaluated the enrichment of COPD risk variants in lung-specific open chromatin regions (OCRs) and generated cell type-specific regulatory predictions for >6,500 variants corresponding to 82 COPD GWAS loci. Integration of the fine-mapped variants with lung OCRs helped prioritize 22 variants in putative regulatory elements with potential functional effects. Comparison to functional predictions from 222 ENCODE cell samples revealed cell type-specific regulatory effects of COPD variants in lung epithelium, endothelium, and immune cells. We identified potential causal variants for COPD risk by integrating fine-mapping in GWAS loci with cell-specific regulatory profiling, highlighting the importance of leveraging chromatin status in relevant cell types to predict the molecular effects of risk variants in lung disease.</p>
 
-<p>* corresponding authors</p>
+<p>* corresponding author</p>
 
 		</div>
 	</div>
