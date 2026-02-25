@@ -130,3 +130,23 @@ p { margin: 0 0 11px; }
   }
   a[href]:after { content: " (" attr(href) ")"; }
 }
+
+/* Custom Logo and Header Styles */
+.biglogo {
+  width: 80px;      /* Adjust this to your preferred size */
+  height: auto;
+  float: left;      /* Matches your 'pull-left' class intent */
+  margin-right: 20px;
+}
+
+.bigtitle {
+  font-size: 36px;  /* Matches H1 size */
+  font-weight: 700;
+  line-height: 80px; /* Vertically centers text if logo is 80px */
+}
+
+/* Fix for the logobox container to ensure vertical alignment */
+.logobox {
+  display: inline-block;
+  vertical-align: middle;
+}
