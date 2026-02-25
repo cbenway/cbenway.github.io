@@ -27,6 +27,37 @@ body {
   background-color: #ffffff;
 }
 
+/* --- Navigation Bar / Buttons --- */
+.navbar {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  background-color: #f8f8f8; /* Light gray background for the bar */
+  min-height: 50px;
+}
+
+.nav > li > a {
+  padding: 10px 15px;
+  font-weight: 700;
+  color: #555;
+  text-transform: lowercase; /* Matches the "blog" style in your HTML */
+}
+
+.nav > li > a:hover {
+  background-color: #eee;
+  color: #dd2d2d;
+  text-decoration: none;
+}
+
+.navbar-right {
+  float: right !important;
+  margin-right: -15px;
+}
+
+.nav-inline li {
+  display: inline-block;
+  list-style: none;
+}
+
 /* 2. Standardized Bold Weight: Changed from 'heavy' to standard '700' for better distinction */
 b, strong {
   font-weight: 700;
