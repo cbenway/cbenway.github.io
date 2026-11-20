@@ -10,7 +10,7 @@
     <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>	
+	<link rel="shortcut icon" href="/images/logo-cb-seq.png"/>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ6WED56QC"></script>
@@ -22,43 +22,27 @@
 	  gtag('config', 'G-YZ6WED56QC');
 	</script>
 			
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
+	<link rel="stylesheet" href="/css/site.css">
 </head>
 
 <body>
 	
-	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo-cb-seq.svg"></object>
-					<a class="navbar-brand" href="/">Christopher J. Benway, Ph.D.</a>
-				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li class="active">
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li>
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/protocols/">Protocols</a></li>	  	  
-				</ul>
-			</div>
-		</nav>	
-	</div>
-	
-	<div class="container">	
+	<header class="site-header">
+		<div class="site-width header-inner">
+			<a href="/" aria-label="Christopher J. Benway, home">
+				<img src="/images/logo-cb-seq.svg" alt="" width="40" height="40">
+			</a>
+			<nav aria-label="Main navigation">
+				<a href="/papers/" aria-current="location">Papers</a>
+				<a href="/projects/">Projects</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container interior site-width" role="main">
 		
 	<div class="bigspacer"></div>
 
@@ -69,9 +53,9 @@
 			<img class="pull-left pad-right media-object" src="/images/papers/benway-par-clip-fig2.png" style="max-width:150px">
 			
 			<div class="media-body">
-				<div class="title media-heading">
+				<h1 class="title media-heading">
 					Defining a microRNA-mRNA interaction map for calcineurin inhibitor induced nephrotoxicity
-				</div>
+				</h1>
 				<p>
 				<div class="smallhead">
 					CJ Benway and J Iacomini*.
@@ -95,15 +79,6 @@
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
 			
-			<div class="smallhead">
-				PDF
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/pdfs/papers/Benway-PAR-CLIP_AJT_2017.pdf">Benway-PAR-CLIP_AJT_2017.pdf</a>
-			</div>
-			<div class="bigspacer"></div>
 			
 			
 			
@@ -124,14 +99,14 @@
 			</div>
  			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cbenway.github.io/papers/benway-par-clip/&text=Defining%20a%20microRNA-mRNA%20interaction%20map%20for%20calcineurin%20inhibitor%20induced%20nephrotoxicity" target="_blank">tweet</a>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="https://twitter.com/share?url=https://cbenway.github.io/papers/benway-par-clip/&text=Defining%20a%20microRNA-mRNA%20interaction%20map%20for%20calcineurin%20inhibitor%20induced%20nephrotoxicity" target="_blank">tweet</a>
 				
 			</div>		 
 			</div>
 	</div>
 	<div class="col-md-8">
 		<div class="post">
-			<h1 id="abstract">Abstract</h1>
+			<h2 id="abstract">Abstract</h2>
 
 <p>Calcineurin inhibitors induce nephrotoxicity through poorly understood mechanisms thereby limiting their use in transplantation and other diseases. Here we define a microRNA (miRNA)-messenger RNA (mRNA) interaction map that facilitates exploration into the role of miRNAs in cyclosporine-induced nephrotoxicity (CIN) and the gene pathways they regulate. Using photoactivatable ribonucleoside-enhanced crosslinking and immunoprecipitation (PAR-CLIP), we isolated RNAs associated with Argonaute 2 in the RNA-induced silencing complex (RISC) of cyclosporine A (CsA) treated and control human proximal tubule cells and identified mRNAs undergoing active targeting by miRNAs. CsA causes specific changes in miRNAs and mRNAs associated with RISC, thereby altering post-transcriptional regulation of gene expression. Pathway enrichment analysis identified canonical pathways regulated by miRNAs specifically following CsA treatment. RNA-seq performed on total RNA indicated that only a fraction of total miRNAs and mRNAs are actively targeted in the RISC, indicating that PAR-CLIP more accurately defines meaningful targeting interactions. Our data also revealed a role for miRNAs in calcineurin-independent regulation of JNK and p38 MAPKs caused by targeting of MAP3K1. Together, our data provide a novel resource and unique insights into molecular pathways regulated by miRNAs in CIN. The gene pathways and miRNAs defined may represent novel targets to reduce calcineurin induced nephrotoxicity.</p>
 

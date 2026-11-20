@@ -11,7 +11,7 @@
     <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>	
+	<link rel="shortcut icon" href="/images/logo-cb-seq.png"/>
 			
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ6WED56QC"></script>
@@ -23,43 +23,27 @@
 	  gtag('config', 'G-YZ6WED56QC');
 	</script>
 			
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
+	<link rel="stylesheet" href="/css/site.css">
 </head>
 
 <body>
 	
-	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo-cb-seq.svg"></object>
-					<a class="navbar-brand" href="/">Christopher J. Benway, Ph.D.</a>
-				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li class="active">
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li>
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/protocols/">Protocols</a></li>	  	  
-				</ul>
-			</div>
-		</nav>	
-	</div>
-	
-	<div class="container">	
+	<header class="site-header">
+		<div class="site-width header-inner">
+			<a href="/" aria-label="Christopher J. Benway, home">
+				<img src="/images/logo-cb-seq.svg" alt="" width="40" height="40">
+			</a>
+			<nav aria-label="Main navigation">
+				<a href="/papers/" aria-current="location">Papers</a>
+				<a href="/projects/">Projects</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container interior site-width" role="main">
 		
 	<div class="bigspacer"></div>
 
@@ -70,9 +54,9 @@
 			<img class="pull-left pad-right media-object" src="/images/papers/hao-dsp-fig5c.png" style="max-width:150px">
 			
 			<div class="media-body">
-				<div class="title media-heading">
+				<h1 class="title media-heading">
 					GWAS Functional Variant rs2076295 Regulates Desmoplakin (DSP) Expression in Airway Epithelial Cells
-				</div>
+				</h1>
 				<p>
 				<div class="smallhead">
 					Y Hao, S Bates, H Mou, JH Yun, B Pham, J Liu, W Qiu, F Guo, JD Morrow, CP Hersh, CJ Benway, L Gong, Y Zhang, IO Rosas, MH Cho, J Park, PJ Castaldi, F Du, and X Zhou*.
@@ -96,15 +80,6 @@
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
 			
-			<div class="smallhead">
-				PDF
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/pdfs/papers/Hao-dsp_AJRCCM_2020.pdf">Hao-dsp_AJRCCM_2020.pdf</a>
-			</div>
-			<div class="bigspacer"></div>
 			
 			
 			
@@ -125,14 +100,14 @@
 			</div>
  			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cbenway.github.io/papers/hao-dsp/&text=Genome-Wide%20Association%20Study:%20Functional%20Variant%20rs2076295%20Regulates%20Desmoplakin%20Expression%20in%20Airway%20Epithelial%20Cells" target="_blank">tweet</a>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="https://twitter.com/share?url=https://cbenway.github.io/papers/hao-dsp/&text=Genome-Wide%20Association%20Study:%20Functional%20Variant%20rs2076295%20Regulates%20Desmoplakin%20Expression%20in%20Airway%20Epithelial%20Cells" target="_blank">tweet</a>
 				
 			</div>		 
 			</div>
 	</div>
 	<div class="col-md-8">
 		<div class="post">
-			<h1 id="abstract">Abstract</h1>
+			<h2 id="abstract">Abstract</h2>
 
 <p>Rationale: Genetic association studies have identified rs2076295 in association with idiopathic pulmonary fibrosis (IPF). We hypothesized that rs2076295 is the functional variant regulating DSP (desmoplakin) expression in human bronchial epithelial cells, and DSP regulates extracellular matrix-related gene expression and cell migration, which is relevant to IPF development. Objectives: To determine whether rs2076295 regulates DSP expression and the function of DSP in airway epithelial cells. Methods: Using CRISPR (clustered regularly interspaced short palindromic repeat)/Cas9 editing (including regional deletion, indel, CRISPR interference, and single-base editing), we modified rs2076295 and measured DSP expression in edited 16HBE14o- and primary airway epithelial cells. Cellular integrity, migration, and genome-wide gene expression changes were examined in 16HBE14o- single colonies with DSP knockout. The expression of DSP and its relevant matrix genes was measured by quantitative PCR and also analyzed in single-cell RNA-sequencing data from control and IPF lungs. Measurements and Main Results: DSP is expressed predominantly in bronchial and alveolar epithelial cells, with reduced expression in alveolar epithelial cells in IPF lungs. The deletion of the DNA region-spanning rs2076295 led to reduced expression of DSP, and the edited rs2076295GG 16HBE14o- line has lower expression of DSP than the rs2076295TT lines. Knockout of DSP in 16HBE14o- cells decreased transepithelial resistance but increased cell migration, with increased expression of extracellular matrix-related genes, including MMP7 and MMP9. Silencing of MMP7 and MMP9 abolished increased migration in DSP-knockout cells.Conclusions: rs2076295 regulates DSP expression in human airway epithelial cells. The loss of DSP enhances extracellular matrix-related gene expression and promotes cell migration, which may contribute to the pathogenesis of IPF.</p>
 

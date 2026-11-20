@@ -11,7 +11,7 @@
     <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>	
+	<link rel="shortcut icon" href="/images/logo-cb-seq.png"/>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ6WED56QC"></script>
@@ -23,43 +23,27 @@
 	  gtag('config', 'G-YZ6WED56QC');
 	</script>
 			
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
+	<link rel="stylesheet" href="/css/site.css">
 </head>
 
 <body>
 	
-	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo-cb-seq.svg"></object>
-					<a class="navbar-brand" href="/">Christopher J. Benway, Ph.D.</a>
-				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li class="active">
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li>
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/protocols/">Protocols</a></li>	  	  
-				</ul>
-			</div>
-		</nav>	
-	</div>
-	
-	<div class="container">	
+	<header class="site-header">
+		<div class="site-width header-inner">
+			<a href="/" aria-label="Christopher J. Benway, home">
+				<img src="/images/logo-cb-seq.svg" alt="" width="40" height="40">
+			</a>
+			<nav aria-label="Main navigation">
+				<a href="/papers/" aria-current="location">Papers</a>
+				<a href="/projects/">Projects</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container interior site-width" role="main">
 		
 	<div class="bigspacer"></div>
 
@@ -70,9 +54,9 @@
 			<img class="pull-left pad-right media-object" src="/images/papers/yuan-mir-494.png" style="max-width:150px">
 			
 			<div class="media-body">
-				<div class="title media-heading">
+				<h1 class="title media-heading">
 					MicroRNA-494 promotes cyclosporine-induced nephrotoxicity and epithelial to mesenchymal transition by inhibiting PTEN
-				</div>
+				</h1>
 				<p>
 				<div class="smallhead">
 					J Yuan, CJ Benway, J Bagley, J Iacomini*.
@@ -96,15 +80,6 @@
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
 			
-			<div class="smallhead">
-				PDF
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/pdfs/papers/Yuan-miR-494_AJT_2015.pdf">Yuan-miR-494_AJT_2015.pdf</a>
-			</div>
-			<div class="bigspacer"></div>
 			
 			
 			
@@ -125,14 +100,14 @@
 			</div>
  			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cbenway.github.io/papers/yuan-mir-494/&text=MicroRNA-494%20promotes%20cyclosporine-induced%20nephrotoxicity%20and%20epithelial%20to%20mesenchymal%20transition%20by%20inhibiting%20PTEN" target="_blank">tweet</a>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="https://twitter.com/share?url=https://cbenway.github.io/papers/yuan-mir-494/&text=MicroRNA-494%20promotes%20cyclosporine-induced%20nephrotoxicity%20and%20epithelial%20to%20mesenchymal%20transition%20by%20inhibiting%20PTEN" target="_blank">tweet</a>
 				
 			</div>		 
 			</div>
 	</div>
 	<div class="col-md-8">
 		<div class="post">
-			<h1 id="abstract">Abstract</h1>
+			<h2 id="abstract">Abstract</h2>
 
 <p>A major complication associated with cyclosporine (CsA) treatment is nephrotoxicity. In this study, we examined whether microRNAs play a role in cyclosporine-induced nephrotoxicity. Treatment of mice with CsA resulted in nephrotoxicity that was associated with an early increase in expression of microRNA mmu-miR-494 (miR-494). Similarly, tubular epithelial cell epithelial-mesenchymal transition (EMT) induced by CsA toxicity resulted in the upregulation of microRNA-494 and a decrease in PTEN levels in vitro. miR-494 directly targeted Pten and negatively regulated its expression. Preventing Pten targeting by miR-494 was sufficient to prevent CsA induced EMT. Knockdown of miR-494 prevented the downregulation of PTEN in tubular epithelial cells following CsA treatment and also prevented CsA induced EMT. Thus, miR-494 plays a major role in promoting CsA induced nephrotoxicity through its ability to target Pten thereby contributing to EMT. We suggest that manipulating miR-494 expression may represent a novel approach to preventing EMT associated with CsA induced nephrotoxicity.</p>
 

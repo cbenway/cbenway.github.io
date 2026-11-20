@@ -11,7 +11,7 @@
     <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>	
+	<link rel="shortcut icon" href="/images/logo-cb-seq.png"/>
 			
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ6WED56QC"></script>
@@ -23,43 +23,27 @@
 	  gtag('config', 'G-YZ6WED56QC');
 	</script>
 			
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
+	<link rel="stylesheet" href="/css/site.css">
 </head>
 
 <body>
 	
-	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo-cb-seq.svg"></object>
-					<a class="navbar-brand" href="/">Christopher J. Benway, Ph.D.</a>
-				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li class="active">
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li>
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/protocols/">Protocols</a></li>	  	  
-				</ul>
-			</div>
-		</nav>	
-	</div>
-	
-	<div class="container">	
+	<header class="site-header">
+		<div class="site-width header-inner">
+			<a href="/" aria-label="Christopher J. Benway, home">
+				<img src="/images/logo-cb-seq.svg" alt="" width="40" height="40">
+			</a>
+			<nav aria-label="Main navigation">
+				<a href="/papers/" aria-current="location">Papers</a>
+				<a href="/projects/">Projects</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container interior site-width" role="main">
 		
 	<div class="bigspacer"></div>
 
@@ -70,9 +54,9 @@
 			<img class="pull-left pad-right media-object" src="/images/papers/moll-exon-fig4.png" style="max-width:150px">
 			
 			<div class="media-body">
-				<div class="title media-heading">
+				<h1 class="title media-heading">
 					A systematic analysis of protein-altering exonic variants in chronic obstructive pulmonary disease
-				</div>
+				</h1>
 				<p>
 				<div class="smallhead">
 					Moll M, Jackson VE, Yu B, Grove ML, London SJ, Gharib SA, Bartz TM, Sitlani CM, Dupuis J, O'Connor GT, Xu H, Cassano PA, Patchen BK, Kim WJ, Park J, Kim KH, Han B, Barr RG, Manichaikul A, Nguyen JN, Rich SS, Lahousse L, Terzikhan N, Brusselle G, Sakornsakolpat P, Liu J, Benway CJ, Hall IP, Tobin MD, Wain LV, Silverman EK, Cho MH*, Hobbs BD*.
@@ -102,7 +86,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/pdfs/papers/Moll-exon-COPD_AJPL_2021.pdf">Moll-exon-COPD_AJPL_2021_2021.pdf</a>
+				<a class="off" href="/pdfs/papers/Moll-exon-COPD_AJPL_2021.pdf">Moll-exon-COPD_AJPL_2021.pdf</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -125,14 +109,14 @@
 			</div>
  			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cbenway.github.io/edit/master/papers/moll_exon/&text=A%20systematic%20analysis%20of%20protein-altering%20exonic%20variants%20in%20chronic%20obstructive%20pulmonary%20disease" target="_blank">tweet</a>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="https://twitter.com/share?url=https://cbenway.github.io/papers/moll-exon/&text=A%20systematic%20analysis%20of%20protein-altering%20exonic%20variants%20in%20chronic%20obstructive%20pulmonary%20disease" target="_blank">tweet</a>
 				
 			</div>		
 			</div>
 	</div>
 	<div class="col-md-8">
 		<div class="post">
-			<h1 id="abstract">Abstract</h1>
+			<h2 id="abstract">Abstract</h2>
 
 <p>Genome-wide association studies (GWASs) have identified regions associated with chronic obstructive pulmonary disease (COPD). GWASs of other diseases have shown an approximately 10-fold overrepresentation of nonsynonymous variants, despite limited exonic coverage on genotyping arrays. We hypothesized that a large-scale analysis of coding variants could discover novel genetic associations with COPD, including rare variants with large effect sizes. We performed a meta-analysis of exome arrays from 218,399 controls and 33,851 moderate-to-severe COPD cases. All exome-wide significant associations were present in regions previously identified by GWAS. We did not identify any novel rare coding variants with large effect sizes. Within GWAS regions on chromosomes 5q, 6p, and 15q, four coding variants were conditionally significant (P < 0.00015) when adjusting for lead GWAS single-nucleotide polymorphisms A common gasdermin B (GSDMB) splice variant (rs11078928) previously associated with a decreased risk for asthma was nominally associated with a decreased risk for COPD [minor allele frequency (MAF) = 0.46, P = 1.8e-4]. Two stop variants in coiled-coil α-helical rod protein 1 (CCHCR1), a gene involved in regulating cell proliferation, were associated with COPD (both P < 0.0001). The SERPINA1 Z allele was associated with a random-effects odds ratio of 1.43 for COPD (95% confidence interval = 1.17-1.74), though with marked heterogeneity across studies. Overall, COPD-associated exonic variants were identified in genes involved in DNA methylation, cell-matrix interactions, cell proliferation, and cell death. In conclusion, we performed the largest exome array meta-analysis of COPD to date and identified potential functional coding variants. Future studies are needed to identify rarer variants and further define the role of coding variants in COPD pathogenesis.</p>
 

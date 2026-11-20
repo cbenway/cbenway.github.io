@@ -10,7 +10,7 @@
     <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>	
+	<link rel="shortcut icon" href="/images/logo-cb-seq.png"/>
 			
 	<!-- Google Analytics -->	
 	<script>
@@ -24,43 +24,27 @@
 
 	</script>
 			
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
+	<link rel="stylesheet" href="/css/site.css">
 </head>
 
 <body>
 	
-	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">Christopher J. Benway, Ph.D.</a>
-				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li>
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li>
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/team/">People</a></li>	  	  
-				</ul>
-			</div>
-		</nav>	
-	</div>
-	
-	<div class="container">	
+	<header class="site-header">
+		<div class="site-width header-inner">
+			<a href="/" aria-label="Christopher J. Benway, home">
+				<img src="/images/logo-cb-seq.svg" alt="" width="40" height="40">
+			</a>
+			<nav aria-label="Main navigation">
+				<a href="/papers/">Papers</a>
+				<a href="/projects/">Projects</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container interior site-width" role="main">
 		
 	<div class="bigspacer"></div>
 
@@ -173,24 +157,24 @@ Superscript contiguous text with carrots like x^2y, surround with parentheses fo
 
 <p>Images work like links, but with a prefaced !.  This supports SVG as well PNG, JPG, etc…</p>
 
-<pre><code>![](/images/papers/trapnell-canalization.png)
-![An image with alt text](/images/papers/trapnell-global-migration.png)
-![](/images/logo.svg)
+<pre><code>![](/images/papers/benway-atac-fig1.png)
+![An image with alt text](/images/papers/benway-prm.png)
+![](/images/logo-cb-seq.svg)
 </code></pre>
-<p><img src="/images/papers/trapnell-canalization.png" alt="" /></p>
+<p><img src="/images/papers/benway-atac-fig1.png" alt="" /></p>
 
-<p><img src="/images/papers/trapnell-global-migration.png" alt="An image with alt text" /></p>
+<p><img src="/images/papers/benway-prm.png" alt="An image with alt text" /></p>
 
-<p><img src="/images/logo.svg" alt="" /></p>
+<p><img src="/images/logo-cb-seq.svg" alt="" /></p>
 
 <hr />
 
 <p>Can always drop in HTML, so sizing adjustments can be done with:</p>
 
-<pre><code>&lt;img style="width:30px;" src="/images/logo.svg"/&gt;
+<pre><code>&lt;img style="width:30px;" src="/images/logo-cb-seq.svg"/&gt;
 </code></pre>
 
-<p><img style="width:30px;" src="/images/logo.svg" /></p>
+<p><img style="width:30px;" src="/images/logo-cb-seq.svg" /></p>
 
 <hr />
 
